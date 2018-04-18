@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal small-caps normal 16px/1.4 Georgia;
+}
+
+#page {
+  padding: 16px 40px;
+}
+
+header {
+  text-align: center;
+  margin: 16px auto;
+  padding: 16px;
+
+  font-weight: 400;
+  font-size: 2rem;
+
+  border: 1px solid #888;
+  background-color: #CCC;
+}
+
+#main {
+  padding: 32px;
+}
+
+#clock {
+  text-align: center;
+  margin: 16px auto;
+
+  font-weight: 400;
+  font-size: 8rem;
+}
+
+#actions {
+  margin: 0 auto;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#actions button {
+  padding: 16px;
+  font-size: 1.2rem;
+}
+
+button.primary {
+  font-weight: bold;
+  background-color: #00BB66;
+}
